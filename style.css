@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=La+Belle+Aurore&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+i{
+    cursor: pointer;
+}
+:root{
+    --tulisan : rgb(33, 33, 131);
+    --ikut : rgb(104, 104, 226);
+}
+body{
+    background-color: rgb(248, 248, 248);
+}
+.row-body{
+    padding-top: 100px;
+    margin : auto;
+    width: 60%;
+}
+.row-sidebar{
+    z-index: 999;
+}
+header{
+    border: 1px solid gainsboro;
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+.kepala{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 25px;
+    font-family: 'The Girl Next Door', cursive;
+}
+input[type=text]{
+    margin-top: 2px;
+    border: 1px solid gainsboro;
+    height: 20px;
+    /* color: #fff; */
+    padding: 1px 1px 1px 15px;
+    border-radius: 2px;
+    /* background-color: black; */
+}
+.printilan i{
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.story{
+    overflow: auto;
+    border: 1px solid gainsboro;
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    background-color: #fff;
+}
+.story img{
+    width: 50x;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid red;
+    padding: 2px;
+}
+.foto1{
+    cursor: pointer;
+    padding: 8px 8px 8px 0px;
+    text-align: center;
+}
+.foto1 p{
+    text-align: center;
+    font-size: 13px;
+}
+/* .sidebar img{
+    border: 1px solid;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+} */
+.row-sidebar{
+    /* border: 1px solid; */
+    border-top: 1px solid gainsboro;
+    position: fixed;
+    bottom: 0;
+    width: 350px;
+    top: 51px;
+    right: 252px;
+    background-color: rgb(248, 248, 248);
+}
+
+.mode{
+    margin-top: 10px;
+    text-align: center;
+}
+.mode button{
+    text-transform: uppercase;
+    padding: 5px;
+}
+.profile{
+    /* border: 1px solid;s */
+    margin-top: 50px;
+    padding: 25px 0px 15px 10px;
+    display: flex;
+}
+.alihkan{
+    margin-top: 10px;
+    margin-left: 120px;
+    float: right;
+    color: var(--tulisan);
+    cursor: pointer;
+}
+.profile p{
+    cursor: pointer;
+    padding: 10px;
+}
+.profile img{
+    cursor: pointer;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.saran{
+    /* border: 1px solid; */
+    display: flex;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+.anda{
+    color: rgb(146, 145, 145);
+    float: left;
+    padding-left: 20px;
+    padding-right: 155px;
+}
+.saran p .lihat{
+    border: 1px solid;
+    float: right;
+}
+.ig-kmpl{
+    display: flex;
+    /* border: 1px solid; */
+    margin-top: 20px;
+    padding-left: 25px;
+    align-items: center;
+}
+.ig-kmpl p{
+    padding: 8px;
+    cursor: pointer;
+}
+.ig-kmpl img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.ikut{
+    /* border: 1px solid; */
+    font-weight: bolder;
+    color: var(--tulisan);
+    padding-left: 200px;
+    cursor: pointer;
+}
+.footer{
+    font-size: 15px;
+    padding-top: 30px;
+    color: rgb(109, 109, 109);
+    text-align: center;
+}
+.akun img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.content{
+    margin-top: 30px;
+    /* border: 1px solid; */
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 59%;
+    background-color: #fff;
+    border-left: 1px solid gainsboro;
+    margin-bottom: 20px;
+}
+.akun{
+    /* border: 1px solid; */
+    margin-bottom: 10px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.akun p{
+    padding-left: 12px;
+    padding-right: 270px;
+}
+.love{
+    padding-left: 15px;
+}
+#bookmark{
+    /* border: 1px solid;/ */
+    margin-left: 340px;
+}
+#bookmark1{
+    /* border: 1px solid;/ */
+    margin-left: 340px;
+}
+#bookmark2{
+    /* border: 1px solid;/ */
+    margin-left: 340px;
+}
+#bookmark3{
+    /* border: 1px solid;/ */
+    margin-left: 340px;
+}
+#bookmark4{
+    /* border: 1px solid;/ */
+    margin-left: 340px;
+}
+.love{
+    padding-top: 10px;
+}
+.love i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.suka{
+    padding-top: 20px;
+}
+.cap{
+    font-size: 15px;
+    padding-top: 10px;
+}
+input[type = text].komen{
+    margin-top: 20px;
+    border : none;
+    border-bottom: 1px solid;
+    width: 100%;
+}
